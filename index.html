@@ -7,8 +7,26 @@
 </head>
 <body>
     <h1>Is Nash 67 today?</h1>
-    <script src="script.js" defer></script>
-    <p id="word">Click for a answer!</p> <button onclick="pickWord()">Pick</button>
+    <script>
+        const messages = [
+            "No",
+            "Yes",
+        ];
+
+        function setDailyMessage() {
+            const now = new Date();
+            const start = new Date(now.getFullYear(), 0, 0);
+            const diff = now - start;
+            const oneDay = 1000 * 60 * 60 * 24;
+            const dayOfYear = Math.floor(diff / oneDay);
+
+            const index = dayOfYear % messages.length;
+            
+            document.getElementById("daily-quote").innerText = messages[index];
+        }
+
+        setDailyMessage();
+    </script>
     <br>
     <a href="game/game_redirect_page.html">Games</a>
 </body>
