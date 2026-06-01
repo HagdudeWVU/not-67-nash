@@ -18,6 +18,9 @@ body {
 }
 
 .nashy {
-  border: 1px solid;
-  border-color: #5b9279;
+  border: 5px solid;
+  border-color: #12130f;
+  background-color: #5b9279;
+  margin-left: auto;
+  margin-right: auto;
 }
