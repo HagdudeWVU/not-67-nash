@@ -4,8 +4,7 @@ body {
   background-color: #eae6e5;
   font-family: "Orbitron", sans-serif;
   color: #12130f;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
 }
 
 .clock {
