@@ -21,6 +21,7 @@ body {
   border: 5px solid;
   border-color: #12130f;
   background-color: #5b9279;
+  width: fit-content;
   margin-left: auto;
   margin-right: auto;
 }
