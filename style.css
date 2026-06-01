@@ -9,6 +9,10 @@ body {
   text-align: center;
 }
 
+.all {
+   text-align: center;
+}
+
 .clock {
   color: #12130f;
   font-size: 60px;
