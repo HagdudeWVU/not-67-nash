@@ -1,15 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap");
 
 body {
-  background-color: black;
+  background-color: #eae6e5;
   font-family: "Orbitron", sans-serif;
-  display: flex;
+  color: #12130f;
   justify-content: center;
   align-items: center;
 }
 
+.all {
+   text-align: center;
+}
+
 .clock {
-  color: #20c20e;
-  font-size: 60px;
+  color: #12130f;
   letter-spacing: 7px;
+}
+
+.nashy {
+  border: 5px solid #12130f;
+  background-color: #5b9279;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 20px;
+  border-radius: 20px;
 }

@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>67?</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Is Nash 67 today?</h1>
-    <p id="daily-quote"></p>
+    <div class="nashy">
+     <h1 class="all">Is Nash 67 today?</h1>
+     <p class="all" id="daily-quote"></p>
+    </div>
     <script>
         const messages = [
             "No",
@@ -29,9 +32,11 @@
         setDailyMessage();
     </script>
     <br>
-    <a href="game/game_redirect_page.html">Games</a>
+    <div class="all">
+      <a id="games" href="game/game_redirect_page.html">Games</a>
+    </div>
     <br>
-    <div class="clock"></div>
+    <div class="clock all"></div>
 
     <script src="app.js"></script>
 </body>
