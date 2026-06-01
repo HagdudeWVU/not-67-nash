@@ -14,12 +14,10 @@ body {
 
 .clock {
   color: #12130f;
-  font-size: 60px;
   letter-spacing: 7px;
 }
 
 .nashy {
-  border: #12130f;
-  border: 3px;
-  background-color: #5b9279;
+  border: 1px solid;
+  border-color: #5b9279;
 }
